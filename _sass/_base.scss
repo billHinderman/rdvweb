@@ -1,0 +1,55 @@
+body {
+    background: $bg;
+    box-sizing: border-box;
+}
+* {
+    box-sizing: border-box;
+}
+.text-alt {
+    color: $textalt;
+}
+.bg-y {
+    background: $y;
+}
+.bg {
+    background: $bg;
+}
+.bg-alt {
+    background: $bgalt;
+}
+.bg-glt {
+    background: $g_lt;
+}
+.bg-gmd {
+    background: $g_md;
+}
+.bg-gdk {
+    background: $g_dk;
+}
+.site-notification {
+    background: $g_lt;
+    color: $text;
+    display: none;
+    text-align: center;
+    @include media-query($m) {
+        display: block;
+    }
+}
+.site-header {
+    text-align: center;
+}
+.site-main {
+    background: $y;
+}
+.site-footer {
+    background: $bgalt;
+    color: $textalt;
+}
+#hero {
+    border: 1px solid $bgalt;
+    display: block;
+    font-size: 1.414em;
+    margin: 1.3em auto 0;
+    min-height: 300px;
+    max-width: 100%;
+}

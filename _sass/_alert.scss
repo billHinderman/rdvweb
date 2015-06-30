@@ -1,0 +1,16 @@
+.wrapper-notification {
+  padding: 1.5*$em $em;
+}
+.site-notification b {
+  font-style: italic;
+}
+.site-notification .link {
+  color: $y;
+  font-weight: bold;
+}
+.site-notification .link:after {
+  background: $y;
+}
+.site-notification .link:hover {
+  color: $text;
+}

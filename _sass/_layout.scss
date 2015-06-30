@@ -1,0 +1,18 @@
+.wrapper {
+    margin: auto;
+    max-width: $l;
+    padding: 4*$em $em;
+    position: relative;
+    @include media-query($l) {
+        padding: 6*$em $em;    
+    }
+}
+.section-buy {
+}
+.section-quote {
+    text-align: center; 
+}
+
+.center-align {
+    text-align: center;
+}

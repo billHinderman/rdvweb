@@ -1,0 +1,21 @@
+.site-head {
+  border-top: solid .1875em;
+  color: $text;
+  display: inline-block;
+  font-size: 1.414em;
+  margin: 0;
+  text-align: left;
+  @include media-query($m) {
+    font-size: 2.827em;
+  }
+}
+.site-subhead {
+  color: $g_md;
+  font-family: $serif;
+  font-size: 1.1em;
+  font-weight: normal;
+  margin: $em 0 0 0;
+  @include media-query($m) {
+    font-size: 1.414em;
+  }
+}

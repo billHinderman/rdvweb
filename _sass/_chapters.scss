@@ -1,0 +1,76 @@
+.toc-link {
+  color: $textalt;
+}
+.list-chapter-item {
+  border-top: .1875em solid rgba($text,.125);
+  padding: 2*$em 0;
+  position: relative;
+}
+$elements: 13;
+@for $i from 0 to $elements {
+  .list-chapter-item:nth-child(#{$i}):before {
+    background: rgba($text,.125);
+    content: "";
+    display: block;
+    height: .375em;
+    left: #{(($i - 1)*8.3333333333%)};
+    position: absolute;
+    top: 0;
+    width: 8.33333333333%
+  }
+}
+.list-chapter-item a {
+  display: block;
+  position: relative;
+  min-height: 15.992em;
+}
+
+.list-chapter-number {
+  color: $textalt;
+  display: block;
+  font-family: $helvetica;
+  font-size: 7.996em;
+  font-weight: bold;
+  line-height: 1em;
+  left: 0;
+  position: absolute;
+  top: -.1875em;
+  z-index: 0;
+  @include media-query($m) {
+    font-size: 15.992em;
+    left: -.125em;
+  }
+  @include media-query($l+(11.999*$em)) {
+    font-size: 23.988em;
+    left: -.5em;
+  }
+}
+.chapter-link {
+  color: $text;
+  font-family: $helvetica;
+  font-weight: bold;
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  text-decoration: none;
+  z-index: 1;
+}
+.chapter-link:after {
+  position: absolute;
+  bottom: -.09375em;
+  left: 0;
+  width: 100%;
+  height: .1875em;
+  background: $text;
+  content: '';
+  transition: all .25s;
+}
+.chapter-snippet {
+  color: $text;
+  display: inline-block;
+  font-size: 1.414em;
+  margin: $em 0 0 $em;
+  position: relative;
+  text-decoration: none;
+  z-index: 1;
+}

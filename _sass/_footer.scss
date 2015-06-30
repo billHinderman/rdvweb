@@ -1,0 +1,13 @@
+.wrapper-footer {
+  padding: 1.5*$em $em;
+}
+.site-footer .link {
+  color: $y;
+  font-weight: bold;
+}
+.site-footer .link:after {
+  background: $y;
+}
+.site-footer .link:hover {
+  color: $textalt;
+}
