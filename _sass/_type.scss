@@ -8,6 +8,29 @@ body {
   line-height: 1.45;
 }
 
+.chapter-content ul {
+  list-style-type: disc;
+}
+
+.chapter-content blockquote {
+  border-bottom: .1875em solid $g_lt;
+  border-top: .1875em solid $g_lt;
+  font-style: italic;
+  padding: 1.3em 0;
+  text-indent: 2.6em;
+}
+.chapter-content blockquote strong {
+  display: block;
+  font-size: .875em;
+  font-weight: bold;
+  text-align: right;
+}
+
+.chapter-content blockquote+p,
+.chapter-content ul+p {
+  margin-top: 1.3em;
+}
+
 p:not(:last-of-type) {
   margin-bottom: 1.3em;
 }
@@ -74,13 +97,13 @@ small, .font_small {
 }
 
 .button {
-  background: $g_dk;
+  background: $y;
   border-top: solid .1875em;
   border-radius: 1px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  color: $textalt;
+  color: $text;
   display: block;
   font-family: $helvetica;
   font-size: $em;
@@ -95,6 +118,7 @@ small, .font_small {
 }
 .button:hover {
   background: $bg;
+  border-color: $y;
   color: $text;
 }
 
@@ -106,7 +130,7 @@ small, .font_small {
     }
 }
 .section-quote span {
-  color: $y;
+  color: $b;
   display: inline-block;
   font-family: $helvetica;
   font-weight: bold;

@@ -2,14 +2,14 @@
   color: $textalt;
 }
 .list-chapter-item {
-  border-top: .1875em solid rgba($text,.125);
+  border-top: .1875em solid $blt;
   padding: 2*$em 0;
   position: relative;
 }
 $elements: 13;
 @for $i from 0 to $elements {
   .list-chapter-item:nth-child(#{$i}):before {
-    background: rgba($text,.125);
+    background: $blt;
     content: "";
     display: block;
     height: .375em;
@@ -26,7 +26,7 @@ $elements: 13;
 }
 
 .list-chapter-number {
-  color: $textalt;
+  color: $blt;
   display: block;
   font-family: $helvetica;
   font-size: 7.996em;

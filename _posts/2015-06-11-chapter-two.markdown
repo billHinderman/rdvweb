@@ -6,12 +6,30 @@ title: Responsive Web Design Tenets
 permalink: /chapter-two/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum, ex sed semper tincidunt, velit ante consequat est, at dictum ante tortor eu magna. Cras malesuada, magna quis placerat hendrerit, lectus dui aliquet nunc, id egestas orci diam nec mauris. Suspendisse quis sodales justo. Ut sagittis viverra condimentum. Pellentesque a purus ultricies, fringilla mi in, sollicitudin nisi. Duis at semper velit, et tincidunt enim. Vivamus eget erat tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam fermentum sodales magna, dapibus volutpat tortor hendrerit vitae. Fusce vulputate tortor in neque auctor, eget lacinia risus laoreet. Praesent mattis eu nisl quis consequat.
+Before breaking out all of our tools, it’s important to set some guiding principles about how to build responsively responsibly. In this chapter, you will examine the foundations of responsive web design, including the guiding principles of your design process—being universal, flexible, economical, and specific. Also covered are seven focal points to build upon as our material becomes more technical.
 
-In lobortis neque metus, non molestie nunc vulputate et. Suspendisse ullamcorper ornare gravida. Aenean convallis magna urna, non pretium libero pharetra nec. Etiam maximus viverra volutpat. Aliquam tempus magna arcu, vitae bibendum massa molestie sit amet. In viverra pulvinar ligula in semper. Maecenas eget dui pharetra, sagittis nisi eu, faucibus lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque aliquet sit amet enim ut interdum. Suspendisse potenti. Maecenas ac lorem leo.
+FYI: This is the content you should casually drop into conversation with someone who can give you a raise.
 
-Ut commodo a massa ac consequat. Phasellus commodo leo nunc, sed pharetra magna pharetra ut. Nullam commodo lectus non tellus hendrerit scelerisque. Integer non odio luctus, egestas ipsum vitae, volutpat eros. Nunc eleifend auctor lectus in consectetur. Morbi id mauris id lacus venenatis dictum. Vivamus hendrerit euismod mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut felis at nisl malesuada sollicitudin in sit amet nisl. Mauris euismod pulvinar ipsum, nec egestas enim scelerisque et. Proin sit amet laoreet tortor. Nulla in lorem metus. Sed tristique nulla venenatis velit laoreet, quis bibendum libero feugiat. Nunc non mollis turpis. Integer placerat rutrum diam, ac ornare nunc consequat at. Donec ut maximus velit, non vehicula libero.
+In May of 2010, Ethan Marcotte (a web designer and developer) coined the phrase “Responsive web design.”  He did so in the still-accurate and still-important article here: alistapart.com/article/responsive-web-design. Think about that timing for a moment.
 
-Integer at facilisis tellus. Duis malesuada est ac velit aliquet, quis sodales risus elementum. Etiam dignissim posuere ipsum, in venenatis lorem placerat eu. Etiam odio massa, efficitur eu neque eget, finibus tincidunt magna. Integer finibus pulvinar consectetur. Sed eu odio enim. Quisque id elit tortor. Nullam arcu purus, ullamcorper quis elementum in, maximus et neque. Fusce nisi tortor, eleifend gravida sollicitudin non, euismod nec est. Nunc eget hendrerit arcu. Ut finibus ligula felis, quis accumsan sapien viverra et. Vivamus mattis pretium eros laoreet ultricies. Nam pulvinar ullamcorper diam et tincidunt. Aliquam ac dignissim turpis, eget rutrum lectus.
+In the previous chapter, you saw that the iPhone launch drastically shifted the personal computing market in 2007, three years before.  And the mobile tipping point, that is, the point at which mobile devices began to outsell traditional computers, happened in 2011, one year after.  
 
-Nam at volutpat ex. Proin id porttitor leo, ut dapibus magna. Aliquam fermentum dapibus metus, sit amet feugiat arcu porttitor ut. Fusce ut eleifend purus. Duis sollicitudin enim vitae cursus maximus. Phasellus vulputate nisl id tincidunt dapibus. Curabitur ultrices nulla mauris. Ut pharetra diam in dignissim viverra. Phasellus posuere ex eu sapien sodales ultrices. Vivamus vulputate ipsum lorem, eu blandit tellus pharetra sit amet. Pellentesque pharetra diam urna, at fermentum purus finibus eu. Aenean a urna diam. Phasellus consequat vulputate condimentum. Aliquam ultrices condimentum diam vulputate sodales. Curabitur aliquam varius turpis. Ut at volutpat velit.
+What device were you using at this point, and how regularly did you access the web on it?  Largely, the mobile web was still a second-class citizen at this point, but that was a paradigm that was rapidly shifting.  The timing of Marcotte’s article shows that the importance of a multi-device internet had already begun to take hold, and users were no longer willing to settle for sub-par web experiences on their mobile devices.
+
+The concept, or goal, of responsive web design is simple: to design a website in such a way that it provides the optimal experience regardless of a user’s device. A website designed responsively adapts to the device’s viewport so that it appears to be designed for that device. This is achieved with a reliance on proportion-based grid systems, CSS @media queries, and flexible media sizes.
+
+Responsive web design is the practice of building a website that is suitable on every device, and every viewport, no matter the size. It is focused on creating intuitive, natural experiences for everyone so that both mobile and desktop (and any other) users feel like a website was tailored for their device.
+
+There are, in essence, two ways to approach building using  Responsive web design:
+
+* Build for the limited user.
+* Build for every user.
+
+Building for the limited user means focusing mainly on building your core experience and enhancing. Building for every user means leveling the playing field for any class of device, and trying to optimize for as many viewports as possible. These two mindsets are not at all mutually exclusive. In fact, the first is encapsulated within the second.
+
+That being said, when working on a project, you should consider your audience and your budget. As romantic as it sounds to create a perfect experience for every user, you will find yourself at one of two points:
+
+* Optimizing for just one person.
+* Broke.
+
+The important thing is to know the intended users of your product, and optimize, as much as possible, for their use cases.

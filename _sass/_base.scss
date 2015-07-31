@@ -11,6 +11,12 @@ body {
 .bg-y {
     background: $y;
 }
+.bg-b {
+    background: $b;
+}
+.bg-blt {
+    background: $blt;
+}
 .bg {
     background: $bg;
 }
@@ -39,7 +45,7 @@ body {
     text-align: center;
 }
 .site-main {
-    background: $y;
+    background: $b;
 }
 .site-footer {
     background: $bgalt;
