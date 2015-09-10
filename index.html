@@ -1,61 +1,12 @@
 ---
 layout: default
 ---
-<section class="section section-buy">
-  <div class="wrapper center-align">
-    <p>
-      <a href="http://www.amazon.com/Building-Responsive-Data-Visualization-Web/dp/1119067146/" rel="external" title="Order Building Responsive Data Visualization for the Web on Amazon.com" class="button button-buy">Order the book</a>
-    </p>
-
-    <p class="flourish italic">or</p>
-
-    <p>
-      <a href="#toc" class="link toc-link">Explore</a> the table of contents and exercises.
-    </p>
-    
-    <p id="hero">
-      Book hero image will go here
-    </p>
-  </div>
-</section>
-
-<section class="section bg-glt section-quote">
+<section class="section bg-b section-quote">
   <div class="wrapper">
     <blockquote>
       <p>Data is growing exponentially, and the need to visualize it in any context has become crucial. Traditional visualizations allow important data to become lost when viewed on a small screen, and the web traffic speaks for itself – viewers repeatedly demonstrate their preference for responsive design.</p>
 
       <p>If you're ready to create more accessible, take-anywhere visualizations, Building Responsive Data Visualization for the Web is your tailor-made solution.</p>
     </blockquote>
-  </div>
-</section>
-
-<section class="section bg section-quote">
-  <div class="wrapper">
-    <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean elementum, ex sed semper tincidunt, velit ante consequat est, at dictum ante tortor eu magna. Cras malesuada, magna quis placerat hendrerit, lectus dui aliquet nunc, id egestas orci diam nec mauris. Suspendisse quis sodales justo.</blockquote>
-    <span>Lorne Ipsum</span>
-  </div>
-</section>
-
-<section class="section bg-gdk section-quote">
-  <div class="wrapper text-alt">
-    <blockquote>Ut sagittis viverra condimentum. Pellentesque a purus ultricies, fringilla mi in, sollicitudin nisi. Duis at semper velit, et tincidunt enim. Vivamus eget erat tortor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</blockquote>
-    <span>Lauren Ipsum</span>
-  </div>
-</section>
-
-<section id="toc" class="section section-toc">
-  <div class="wrapper">
-    <h3 class="section-heading">Table of Contents</h3>
-    <ul class="list-chapters">
-      {% for chapter in site.posts %}
-        <li class="list-chapter-item">
-          <a href="{{ chapter.permalink | prepend: site.baseurl }}" alt="{{ chapter.chapter_title }} : {{ chapter.title }}">
-            <span class="list-chapter-number">{{ chapter.chapter_number }}</span>
-            <h4 class="chapter-link">{{ chapter.title }}</h4>
-            <p class="chapter-snippet">This is the last piece of radically new information before you start merging everything you’ve learned together into a greater whole.  In this chapter, you are going to start looking at how D3 works, and how to react not to client feature changes, but rather changes in the data backing your visualizations.</p>
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
   </div>
 </section>
