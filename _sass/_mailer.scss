@@ -1,0 +1,31 @@
+.mailer {
+  background: $blt;
+  display: block;
+  font-family: $serif;
+  font-size: 1.25em;
+  font-style: italic;
+
+  input[type="email"] {
+    border: none;
+    font-size: 16px;
+    outline: none;
+    padding: 8px;
+    width: 240px;
+  }
+
+  .mc-field-group,
+  #mc-embedded-subscribe {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  #mc_embed_signup {
+    margin: auto;
+    max-width: $l;
+    padding: 2*$em $em;
+    @include media-query($l) {
+        padding: 4*$em $em;    
+    }
+  }
+}
+
