@@ -1,14 +1,18 @@
 .site-head {
-  border-top: solid .1875em;
+  border-top: solid .1875em $text;
   
   color: $text;
   display: inline-block;
   font-size: 1.414em;
   margin: 0;
   text-align: left;
+  transition: color .2s;
   @include media-query($m) {
     font-size: 2.827em;
   }
+}
+.site-head:hover {
+  color: $b;
 }
 .site-subhead {
   color: $g_md;

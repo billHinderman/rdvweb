@@ -8,6 +8,13 @@
 .site-footer .link:after {
   background: $b;
 }
-.site-footer .link:hover {
+.site-footer .link:hover,
+.site-footer .link.link-yellow:hover {
   color: $textalt;
+}
+.site-footer .link.link-yellow {
+  color: $y;
+}
+.site-footer .link.link-yellow:after {
+  background: $y;
 }

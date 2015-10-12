@@ -50,8 +50,24 @@
   color: $g_lt;
   left: 0;
   position: absolute;
-  z-index: 0;
+  transition: color .25s;
   width: 100%;
+  z-index: 0;
+}
+.nav-link .fa-paragraph {
+  font-size: 3em;
+  @include media-query($s-m) {
+    font-size: 5em;
+  }
+}
+.nav-link .fa-question {
+  font-size: 4em;
+  @include media-query($s-m) {
+    font-size: 6em;
+  }
+}
+.chapter-nav .nav-link:hover .fa {
+  color: $blt;
 }
 .nav-link span {
   position: relative;
