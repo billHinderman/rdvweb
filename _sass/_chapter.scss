@@ -8,13 +8,13 @@
 .chapter-title {
   border-top: solid .1875em;
   display: inline-block;
-  font-size: 1.414em;
+  font-size: 1.414*$em;
   margin: 0;
   position: relative;
   text-align: center;
   z-index: 1;
   @include media-query($m) {
-    font-size: 2.827em;
+    font-size: 2.827*$em;
   }
 }
 .chapter-num {
