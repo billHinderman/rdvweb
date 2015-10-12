@@ -53,6 +53,10 @@
   display: block;
   margin-top: 1.3em;
 }
+.exercises ol li {
+  display: list-item;
+  margin-left: 1.3em;
+}
 .exercise-header {
   color: $b;
   font-style: italic;

@@ -11,6 +11,7 @@ code,
 .mono-code {
   font-family: $code;
   font-size: .667em;
+  font-weight: bold;
   padding: .333*$em;
   white-space: pre-wrap;
 }
@@ -188,4 +189,8 @@ small, .font_small {
 }
 .flourish:after {
   right: -1em;
+}
+
+ol {
+  list-style-type: decimal;
 }
