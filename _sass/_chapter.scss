@@ -36,3 +36,11 @@
     left: -.5em;
   }
 }
+
+.chapter-nav .wrapper {
+  border-bottom: 1px solid $g_lt;
+  text-align: center;
+}
+.chapter-nav .nav-link {
+  margin: 1em 2em;
+}
