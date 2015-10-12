@@ -13,7 +13,7 @@
   position: relative;
   text-align: center;
   z-index: 1;
-  @include media-query($m) {
+@include media-query($m) {
     font-size: 2.827*$em;
   }
 }
@@ -104,4 +104,8 @@
 
 .exercise-content p:not(:last-of-type) {
   margin-bottom: 1.3em;
+}
+
+.exercises .link:hover {
+  color: $w;
 }
