@@ -35,11 +35,7 @@ body {
 .site-notification {
     background: $g_lt;
     color: $text;
-    display: none;
     text-align: center;
-    @include media-query($m) {
-        display: block;
-    }
 }
 .site-header {
     text-align: center;
@@ -52,10 +48,9 @@ body {
     color: $textalt;
 }
 #hero {
-    border: 1px solid $bgalt;
     display: block;
     font-size: 1.414em;
     margin: 1.3em auto 0;
-    min-height: 300px;
-    max-width: 100%;
+    max-width: 32em;
+    width: 100%;
 }

@@ -1,8 +1,9 @@
 .wrapper-notification {
   padding: 1.5*$em $em;
 }
-.site-notification b {
+.site-notification em {
   font-style: italic;
+  text-decoration: underline;
 }
 .site-notification .link {
   color: $b;

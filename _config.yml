@@ -13,3 +13,7 @@ github_username:  billhinderman
 
 # Build settings
 markdown: kramdown
+
+collections:
+  chapters:
+    output: true

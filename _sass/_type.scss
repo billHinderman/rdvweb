@@ -19,7 +19,8 @@ body {
   padding: 1.3em 0;
   text-indent: 2.6em;
 }
-.chapter-content blockquote strong {
+.chapter-content blockquote strong,
+.chapter-content blockquote b {
   display: block;
   font-size: .875em;
   font-weight: bold;
@@ -73,9 +74,15 @@ small, .font_small {
   color: $g_lt;
   font-size: 0.707em;
 }
-
+.bg-b .link {
+  color: $w;
+}
+.bg-b .link:after {
+  background: $w;
+}
 .link {
   display: inline-block;
+  color: $b;
   font-family: $helvetica;
   font-weight: bold;
   position: relative;
@@ -91,7 +98,7 @@ small, .font_small {
   left: 0;
   width: 100%;
   height: .1875em;
-  background: $text;
+  background: $b;
   content: '';
   transition: all .25s;
 }
@@ -104,7 +111,7 @@ small, .font_small {
   -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   color: $text;
-  display: block;
+  display: inline-block;
   font-family: $helvetica;
   font-size: $em;
   font-weight: bold;
@@ -114,11 +121,10 @@ small, .font_small {
   text-decoration: none;
   text-align: center;
   transition: all .25s;
-  width: 288px;
+  max-width: 288px;
 }
 .button:hover {
   background: $bg;
-  border-color: $y;
   color: $text;
 }
 
@@ -128,6 +134,9 @@ small, .font_small {
     @include media-query($m) {
       font-size: 1.999em;
     }
+}
+.section-quote em {
+  text-decoration: underline;
 }
 .section-quote span {
   color: $b;

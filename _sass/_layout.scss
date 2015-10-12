@@ -1,18 +1,33 @@
 .wrapper {
     margin: auto;
     max-width: $l;
-    padding: 4*$em $em;
+    padding: 4*$em 2*$em;
     position: relative;
     @include media-query($l) {
         padding: 6*$em $em;    
     }
 }
+
 .section-buy {
 }
-.section-quote {
-    text-align: center; 
+@include media-query($m) {
+  .section-quote p, {
+    text-indent: 1.3em;
+  }
 }
 
+.section-quote ul {
+  margin-top: 1.3em;
+  margin-left: .65em;
+  list-style-type: disc;
+}
+.section-quote .link {
+  display: inline;
+  font-style: normal;
+}
+.section-quote .link:hover {
+  color: $w;
+}
 .center-align {
     text-align: center;
 }

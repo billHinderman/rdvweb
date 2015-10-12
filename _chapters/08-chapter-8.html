@@ -1,0 +1,22 @@
+---
+layout: chapter
+chapter_title: Chapter Eight
+chapter_number: '08'
+title: Think Small
+permalink: /chapter-8/
+snippet: 'Until now, the smallest screen you have considered has still been a screen. In this chapter, you’re going to shrink the available real estate even further and begin your data visualization development at an even more basic level: the user without a screen. You’ll learn to build API-first, rather than mobile-first, in order to create the most efficient, communicative representation of your data. From there, you’ll be able to work with discrete, efficient data sets which you can group and layer to create effective visualizations.'
+---
+
+<p>Now that you have spent some time at the 40,000-foot view, in this chapter you will focus on some actual implementation details. Just as you have done in previous chapters, you should begin by considering the most limited user.</p>
+
+<p>In the discussion about responsive design, that most limited user was someone working on a small screen on a bad network. And intuitively, that makes sense. You are designing visible layouts to be consumed by humans. The lower limit of that would, naturally, be something with which a human could interact.</p>
+
+<p>Throughout this book, I’ve waxed poetic about the importance of developing for the smallest screen as your base user—and that’s still a good precept to adhere to.</p>
+
+<p>However, as brought up in the previous chapter, there is an important user who has something smaller than the smallest screen: a user with no screen at all. You see, below the visible layer presented to your human users is an absolutely pivotal layer to both your own and other systems: the API (application programming interface).</p>
+
+<p>Your data is a big giant mess of numbers that probably will mean something to someone, but really means nothing to anyone, because you can’t reach it (or can’t reach it cleanly). Certain data sets are so large, or volatile, that attempting to dig through the actual data, or even keep it up to date, becomes more of a burden than extracting and presenting meaningful information.</p>
+
+<p>An API should describe the expected inputs and standardized outputs of interacting with your data set.</p>
+
+<p>The question is what makes a good API?</p>
