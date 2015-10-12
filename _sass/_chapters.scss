@@ -4,6 +4,21 @@
 .toc-link {
   color: $textalt;
 }
+.toc-heading {
+  border-top: solid .1875em;
+  color: $w;
+  display: inline;
+  font-family: $helvetica;
+  font-weight: bold;
+  font-size: 1.414em;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+  @include media-query($m) {
+    font-size: 2.827em;
+  }
+}
 .list-chapter-item {
   border-top: .1875em solid $blt;
   padding: 2*$em 0;
