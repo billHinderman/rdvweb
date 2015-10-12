@@ -44,3 +44,29 @@
 .chapter-nav .nav-link {
   margin: 1em 2em;
 }
+
+.exercises {
+  margin-top: 1.3*$em;
+  list-style-type: none;
+}
+.exercises li {
+  display: block;
+  margin-top: 1.3em;
+}
+.exercise-header {
+  color: $b;
+  font-style: italic;
+  @include media-query($m) {
+    font-size: 1.414em;
+  }
+}
+.exercise-content blockquote+p,
+.exercise-content ul+p,
+.exercise-content pre+p,
+.exercise-content p+pre {
+  margin-top: 1.3em;
+}
+
+.exercise-content p:not(:last-of-type) {
+  margin-bottom: 1.3em;
+}
