@@ -17,3 +17,5 @@ markdown: kramdown
 collections:
   chapters:
     output: true
+  redirects:
+    output: true
