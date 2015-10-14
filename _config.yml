@@ -1,10 +1,8 @@
 # Site settings
 title: Building Responsive Data Visualization for the Web
 email: bill@billhinderman.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >
+  With more than 1.4 billion smart phones and at least half as many tablets in use, there is a tremendous need for responsive web design in the data visualization sphere. Building Responsive Data Visualization for the Web answers the call for guidance with an authoritative and practical guide based on responsive web design principles.
 baseurl: "" # the subpath of your site, e.g. /blog/
 toc: "/chapters/" # TOC
 url: "http://responsivedatavisualization.com" # the base hostname & protocol for your site
