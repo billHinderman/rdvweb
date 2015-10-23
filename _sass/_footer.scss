@@ -18,3 +18,9 @@
 .site-footer .link.link-yellow:after {
   background: $y;
 }
+.love {
+  -webkit-animation: love 1.414s infinite ease-in-out;
+  animation: love 1.414s infinite ease-in-out;
+}
+
+
